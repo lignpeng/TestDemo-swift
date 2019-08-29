@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F140F3B22439237000D1525 /* Popview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F140F3A22439237000D1525 /* Popview.swift */; };
 		1F4D60D72175DA8E0047A28B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D60D62175DA8E0047A28B /* AppDelegate.swift */; };
 		1F4D60D92175DA8E0047A28B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4D60D82175DA8E0047A28B /* ViewController.swift */; };
 		1F4D60DE2175DA900047A28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4D60DD2175DA900047A28B /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F140F3A22439237000D1525 /* Popview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popview.swift; sourceTree = "<group>"; };
 		1F4D60D32175DA8E0047A28B /* TestDemo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestDemo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4D60D62175DA8E0047A28B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F4D60D82175DA8E0047A28B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F140F392243920C000D1525 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1F140F3A22439237000D1525 /* Popview.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		1F4D60CA2175DA8E0047A28B = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 			children = (
 				1F4D60D62175DA8E0047A28B /* AppDelegate.swift */,
 				1F4D60D82175DA8E0047A28B /* ViewController.swift */,
+				1F140F392243920C000D1525 /* view */,
 				1F4D60DD2175DA900047A28B /* Assets.xcassets */,
 				1F4D60DF2175DA900047A28B /* LaunchScreen.storyboard */,
 				1F4D60E22175DA900047A28B /* Info.plist */,
@@ -253,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4D60D92175DA8E0047A28B /* ViewController.swift in Sources */,
+				1F140F3B22439237000D1525 /* Popview.swift in Sources */,
 				1F4D60D72175DA8E0047A28B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
