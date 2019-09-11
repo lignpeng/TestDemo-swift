@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIView layout="flex:1,alignItems:center" attr='bgColor:white'>
+    <UITableView name="tableView" layout="flex:1"/>
+</UIView>
+<!--<UIView-->
+<!--    layout="-->
+<!--    flex:1,-->
+<!--    alignItems:center"-->
+<!--    attr="bgColor:white">-->
+<!--    <UITableView name="_tableView" layout="flex:1"/>-->
+<!--</UIView>-->
+

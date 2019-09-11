@@ -7,16 +7,22 @@
 //
 
 import UIKit
+import FlexLib
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FlexRestorePreviewSetting()
         // Override point for customization after application launch.
-        let vc = ViewController()
-        let nav = UINavigationController.init(rootViewController: vc)
+//        let vc = ViewController()
+//        let vc = NewViewcontroller.init(flexName: "NewViewController")
+        let vc = mainViewController.init(flexName: "mainViewController")
+        
+        let nav = UINavigationController.init(rootViewController: vc!)
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = nav;
         window?.makeKeyAndVisible()

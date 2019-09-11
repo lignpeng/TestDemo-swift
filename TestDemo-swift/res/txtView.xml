@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlexScrollView name="scroll" layout='flex:1' attr='bgColor:white,vertScroll:true,vertIndicator:true'>
+    <UIView layout='flexDirection:row,alignItems:center,margin:10'>
+        <UIView layout='flex:1'>
+            <UILabel attr='fontSize:16,color:#333333,text:归属合同'/>
+            <UIView layout='height:10'/>
+            <UITextField layout='width:100%' attr='placeholder:请输入本次收款金额,fontSize:16,color#333333'/>
+        </UIView>
+        <UIImageView layout='height:20,width:20' attr='source:arrow_right.png'/>
+    </UIView>
+</FlexScrollView>

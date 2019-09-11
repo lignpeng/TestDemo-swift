@@ -1,0 +1,20 @@
+
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'https:xxxxx.git'
+#如果有多个仓库地址的话，就要配置全
+platform :ios, '10.0'
+inhibit_all_warnings!
+use_frameworks!
+
+target 'TestDemo-swift' do
+    pod 'Moya', '~> 13.0'
+    pod 'SwiftyJSON', '~> 4.0'
+    pod 'SnapKit', '~> 5.0.0'
+    pod 'Kingfisher'
+    pod 'FlexLib'
+end
+
+pre_install do |installer|
+    # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
+    def installer.verify_no_static_framework_transitive_dependencies; end
+end
